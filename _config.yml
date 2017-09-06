@@ -39,4 +39,4 @@ plugins:
 whitelist:
   - jekyll-asciidoc
 
-theme: jekyll-theme-hacker
+
