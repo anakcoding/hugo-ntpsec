@@ -33,7 +33,7 @@ asciidoc:
 
 asciidoctor: {}
 
-gems:
+plugins:
   - jekyll-asciidoc
 
 whitelist:
