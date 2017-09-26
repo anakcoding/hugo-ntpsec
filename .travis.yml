@@ -8,7 +8,9 @@ install:
   - export PATH=$HOME/bin:$PATH
 
 script:
-  - hugo
+  - go get github.com/kardianos/govendor
+  - govendor get github.com/gohugoio/hugo
+  - go install github.com/gohugoio/hugo
 
 deploy:
   provider: pages
