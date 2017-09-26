@@ -8,7 +8,7 @@ install:
   - export PATH=$HOME/bin:$PATH
 
 script:
-  - hugo import jekyll
+  - hugo import jekyll jekyll_root_path target_path
 
 deploy:
   provider: pages
