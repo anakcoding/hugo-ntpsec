@@ -16,7 +16,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $787435936f1d4b4d342b84e4a486564199ab73a9
-  local_dir: hugo-ntpsec
+  local_dir: $hugo-ntpsec
   target_branch: gh-pages
   on:
     branch: master
