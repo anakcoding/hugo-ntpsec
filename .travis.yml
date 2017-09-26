@@ -8,9 +8,7 @@ install:
   - export PATH=$HOME/bin:$PATH
 
 script:
-  - go get github.com/kardianos/govendor
-  - govendor get github.com/gohugoio/hugo
-  - go install github.com/gohugoio/hugo
+  - hugo import jekyll
 
 deploy:
   provider: pages
